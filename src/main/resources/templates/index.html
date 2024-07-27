@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Pet Clinic</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .pet-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+ <div class="header">
+        <h1>Welcome to the Pet Clinic</h1>
+        <p>Your pet's health and well-being is our top priority</p>
+    </div>
+
+    <div class="container main-content">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/images/pic.jpg" class= "pet-image" alt= "Pet 1">
+                <h3>Comprehensive Care</h3>
+                <p>We offer a wide range of services to keep your pet healthy and happy.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="/images/R.jpg" class="pet-image" alt="Pet 2">
+                <h3>Experienced Veterinarians</h3>
+                <p>Our team of experienced veterinarians are here to provide the best care for your pet.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="/images/cat_dog.webp" class="pet-image" alt="Pet 3">
+                <h3>State-of-the-Art Facility</h3>
+                <p>Our clinic is equipped with the latest technology to ensure your pet receives the best care possible.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Pet Clinic. All rights reserved.</p>
+    </div>
+
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl1PILFhosVNubq2Fj+MURVG59AlC9+dO/U2ofTG2fR/tIpHb8nL4W5W/d3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVRmX6u5zeK0zDf3QYSV8FmHcaS8FYz7TMIom1k5F76R3zmF/Ww5WkFgjK5zY2M3" crossorigin="anonymous"></script>
+</body>
+</html>
